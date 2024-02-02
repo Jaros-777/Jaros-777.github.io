@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+body{
+    background-color: rgb(94, 92, 92);
+    display: flex;
+    justify-content: center;
+
+}
+
+#container{
+    background-color: rgb(107, 105, 105);
+    width: 270px;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+#left{
+    color: white;
+    background-color: rgb(71, 100, 124);
+    width: 40vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.col{
+    
+    width: 80%;
+}
+
+#profile{
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    margin:10px 0px 10px 0px;
+}
+.BigText{
+    margin-top: 10px;
+    font-size: 8px;
+    font-weight: bold;
+    text-align: left;
+}
+#name{
+    text-align: left;
+    font-size: 18px;
+}
+
+.opis{
+    margin-top: 6px;
+    font-size: 5px;
+    text-align: left;
+}
+
+
+#right{
+    background-color: white;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+}
+
+#right .BigText{
+    background-color: rgb(241, 207, 207);
+    padding: 2px 5px;
+}
+
+.stanowisko{
+    font-weight: bold;
+    margin: 3px 0px;
+    font-size: 6px;
+}
+
+.firma{
+    font-weight: bold;
+    margin: 3px 0px;
+    font-size: 5px;
+}
