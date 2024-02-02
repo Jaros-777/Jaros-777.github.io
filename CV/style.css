@@ -12,8 +12,8 @@ body{
 
 #container{
     background-color: rgb(107, 105, 105);
-    width: 270px;
-    height: 350px;
+    width: 850px;
+    height: 1400px;
     display: flex;
     flex-direction: row;
     padding: 5px;
@@ -35,25 +35,26 @@ body{
 
 #profile{
     border-radius: 50%;
-    width: 65px;
-    height: 65px;
-    margin:10px 0px 10px 0px;
+    width: 250px;
+    height: 250px;
+    margin:50px 0px 50px 0px;
 }
 .BigText{
-    margin-top: 10px;
-    font-size: 8px;
+    margin-top: 30px;
+    font-size: 25px;
     font-weight: bold;
     text-align: left;
 }
 #name{
     text-align: left;
-    font-size: 18px;
+    font-size: 50px;
 }
 
 .opis{
-    margin-top: 6px;
-    font-size: 5px;
+    margin-top: 16px;
+    font-size: 17px;
     text-align: left;
+    margin-bottom: 30px;
 }
 
 
@@ -66,17 +67,24 @@ body{
 
 #right .BigText{
     background-color: rgb(241, 207, 207);
-    padding: 2px 5px;
+    padding: 15px 30px;
 }
 
 .stanowisko{
     font-weight: bold;
-    margin: 3px 0px;
-    font-size: 6px;
+    margin-top: 5000px;
+    font-size: 24px;
 }
 
 .firma{
     font-weight: bold;
     margin: 3px 0px;
-    font-size: 5px;
+    font-size: 18px;
+    margin-left: 5px;
+}
+#right p{
+    margin-top: 10px;
+}
+.zadania{
+    margin-left: 10px;
 }
